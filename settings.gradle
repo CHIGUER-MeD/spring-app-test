@@ -1,0 +1,10 @@
+rootProject.name = 'spring-petclinic-microservices'
+
+include 'spring-petclinic-admin-server'
+include 'spring-petclinic-api-gateway'
+include 'spring-petclinic-config-server'
+include 'spring-petclinic-customers-service'
+include 'spring-petclinic-discovery-server'
+include 'spring-petclinic-vets-service'
+include 'spring-petclinic-visits-service'
+//include 'spring-petclinic-genai-service'
