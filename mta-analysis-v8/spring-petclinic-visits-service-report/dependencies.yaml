@@ -1,0 +1,4263 @@
+- fileURI: file:///C:/Users/chiguer/Desktop/spring-petclinic-microservices-main/spring-petclinic-visits-service/pom.xml
+  provider: java
+  dependencies:
+  - name: antlr.antlr
+    version: 2.7.7
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 52f15b99911ab8b8bc8744675f5cf1994a626fb8
+    extras:
+      artifactId: antlr
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: antlr
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/antlr/antlr/2.7.7
+  - name: aopalliance.aopalliance
+    version: "1.0"
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 5128a2b0efbba460a1178d07773618e0986ea152
+    extras:
+      artifactId: aopalliance
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: aopalliance
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/aopalliance/aopalliance/1.0
+  - name: ch.qos.logback.logback-classic
+    version: 1.5.22
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: f3995adf2cf127172a787066db88cd92e549c3b2
+    extras:
+      artifactId: logback-classic
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: ch.qos.logback
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/ch/qos/logback/logback-classic/1.5.22
+  - name: ch.qos.logback.logback-core
+    version: 1.5.22
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 917266cab87b770d9a087afe322067016abc1a41
+    extras:
+      artifactId: logback-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: ch.qos.logback
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/ch/qos/logback/logback-core/1.5.22
+  - name: com.fasterxml.classmate
+    version: 1.7.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: f80df551394d6877a3bdc06d3d4f373f661a91aa
+    extras:
+      artifactId: classmate
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: com.fasterxml
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/fasterxml/classmate/1.7.1
+  - name: com.fasterxml.jackson.core.jackson-annotations
+    version: "2.20"
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 046a776ebde36cfa4edd3e396544d8b1e939bef5
+    extras:
+      artifactId: jackson-annotations
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: com.fasterxml.jackson.core
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.20
+  - name: com.fasterxml.jackson.core.jackson-core
+    version: 2.20.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 27718db6f3e3bcde353b88099187f1ff963bd5e6
+    extras:
+      artifactId: jackson-core
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.fasterxml.jackson.core
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.1
+  - name: com.fasterxml.jackson.core.jackson-databind
+    version: 2.20.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 88676abff1e9882b4daabf10fb573b9c7de44c53
+    extras:
+      artifactId: jackson-databind
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: com.fasterxml.jackson.core
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.1
+  - name: com.fasterxml.jackson.datatype.jackson-datatype-jdk8
+    version: 2.20.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 4fc9611d16a9138438d997ee4d6d13efab67cfc1
+    extras:
+      artifactId: jackson-datatype-jdk8
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.fasterxml.jackson.datatype
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.20.1
+  - name: com.fasterxml.jackson.datatype.jackson-datatype-jsr310
+    version: 2.20.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: f2c31b84ae7f19b5fa1167a19ad0b0e6766538fe
+    extras:
+      artifactId: jackson-datatype-jsr310
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.fasterxml.jackson.datatype
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.20.1
+  - name: com.fasterxml.jackson.module.jackson-module-parameter-names
+    version: 2.20.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 7fe9459193939895ebadb73a1b07337e11b18801
+    extras:
+      artifactId: jackson-module-parameter-names
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.fasterxml.jackson.module
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.20.1
+  - name: com.google.code.gson.gson
+    version: 2.13.2
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: bf590b4d5dbf4eab3e0654e6db5de8e70947edb3
+    extras:
+      artifactId: gson
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.google.code.gson
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/google/code/gson/gson/2.13.2
+  - name: com.google.errorprone.error_prone_annotations
+    version: 2.41.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 3035cf6cd44cac9ae600cabb1fe4a494d9c264e4
+    extras:
+      artifactId: error_prone_annotations
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.google.errorprone
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0
+  - name: com.google.guava.guava
+    version: 14.0.1
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 7b4c8f117c11a8f1fcaf4f1b0fd07cbe756a1430
+    extras:
+      artifactId: guava
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.google.guava
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/google/guava/guava/14.0.1
+  - name: com.googlecode.json-simple.json-simple
+    version: 1.1.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 5e902aae26ac5c36f6420f689f43333129dd69e2
+    extras:
+      artifactId: json-simple
+      baseDep:
+        extras:
+          artifactId: jolokia-core
+          groupId: org.jolokia
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.jolokia.jolokia-core
+        version: 1.7.1
+      groupId: com.googlecode.json-simple
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1
+  - name: com.jayway.jsonpath.json-path
+    version: 2.10.0
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 9eca27d0537f3d97fca590a9acf6d3999a636c12
+    extras:
+      artifactId: json-path
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: com.jayway.jsonpath
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/jayway/jsonpath/json-path/2.10.0
+  - name: com.mysql.mysql-connector-j
+    version: 9.5.0
+    type: "runtime\r"
+    resolvedIdentifier: 0b3b040888a972e3bba458847409aa7bb9ab3989
+    extras:
+      artifactId: mysql-connector-j
+      groupId: com.mysql
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/mysql/mysql-connector-j/9.5.0
+  - name: com.netflix.eureka.eureka-client
+    version: 2.0.5
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: a4d9455dcab3a7346a39a164e1c90641f3b1a183
+    extras:
+      artifactId: eureka-client
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.netflix.eureka
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/netflix/eureka/eureka-client/2.0.5
+  - name: com.netflix.netflix-commons.netflix-eventbus
+    version: 0.3.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: bcb52e9463cb93ae33697af24f53864c736d7633
+    extras:
+      artifactId: netflix-eventbus
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.netflix.netflix-commons
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/netflix/netflix-commons/netflix-eventbus/0.3.0
+  - name: com.netflix.netflix-commons.netflix-infix
+    version: 0.3.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 0f41af2137ed7652078a101c5506d18f01eb3fa9
+    extras:
+      artifactId: netflix-infix
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.netflix.netflix-commons
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/netflix/netflix-commons/netflix-infix/0.3.0
+  - name: com.netflix.servo.servo-core
+    version: 0.5.3
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 77e5233bc88d85c38cd430e545fc391f97bf34de
+    extras:
+      artifactId: servo-core
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.netflix.servo
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/netflix/servo/servo-core/0.5.3
+  - name: com.netflix.spectator.spectator-api
+    version: 1.7.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 4f6327436dfb8cd462d4ca834d5f02093899d011
+    extras:
+      artifactId: spectator-api
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.netflix.spectator
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/netflix/spectator/spectator-api/1.7.3
+  - name: com.squareup.okhttp3.okhttp
+    version: 4.12.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 6354764c8008d477d21735a4906ba035fa0d5556
+    extras:
+      artifactId: okhttp
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: com.squareup.okhttp3
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0
+  - name: com.squareup.okio.okio
+    version: 3.6.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 33276ca93e49afe91d541b0c571c9cf6b6ddc32c
+    extras:
+      artifactId: okio
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: com.squareup.okio
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/squareup/okio/okio/3.6.0
+  - name: com.squareup.okio.okio-jvm
+    version: 3.6.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 3695a53d374b2b7ab8a1b375095f7360da66fb2e
+    extras:
+      artifactId: okio-jvm
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: com.squareup.okio
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/squareup/okio/okio-jvm/3.6.0
+  - name: com.stoyanr.evictor
+    version: 1.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: e70915fd18465f63565206a923b8ad133bce7f4d
+    extras:
+      artifactId: evictor
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.stoyanr
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/stoyanr/evictor/1.0.0
+  - name: com.sun.istack.istack-commons-runtime
+    version: 4.1.2
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 791e64803f294eafcf0f401c399d626ad0721500
+    extras:
+      artifactId: istack-commons-runtime
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: com.sun.istack
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2
+  - name: com.thoughtworks.xstream.xstream
+    version: 1.4.21
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 7ecc052afdd8d98d1189f75baa278ec6d863c253
+    extras:
+      artifactId: xstream
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: com.thoughtworks.xstream
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/thoughtworks/xstream/xstream/1.4.21
+  - name: com.vaadin.external.google.android-json
+    version: 0.0.20131108.vaadin1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 90ebaebd21e7bcfad5416f999926d05f834bfeb5
+    extras:
+      artifactId: android-json
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: com.vaadin.external.google
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1
+  - name: com.zaxxer.HikariCP
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: b700b5899cad5d74eadd37c74d872c61cad2bc1e
+    extras:
+      artifactId: HikariCP
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: com.zaxxer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/com/zaxxer/HikariCP/7.0.2
+  - name: commons-codec.commons-codec
+    version: 1.19.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 1558aa689bc8fbb7f0214e59e891843e22ec5bf1
+    extras:
+      artifactId: commons-codec
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: commons-codec
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/commons-codec/commons-codec/1.19.0
+  - name: commons-configuration.commons-configuration
+    version: "1.10"
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: fab40cf87b3b58e74cf4ad1807489010a9df692d
+    extras:
+      artifactId: commons-configuration
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: commons-configuration
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/commons-configuration/commons-configuration/1.10
+  - name: commons-jxpath.commons-jxpath
+    version: "1.3"
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 5e055fca16d713557023ff042f49eb365938c683
+    extras:
+      artifactId: commons-jxpath
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: commons-jxpath
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/commons-jxpath/commons-jxpath/1.3
+  - name: commons-lang.commons-lang
+    version: "2.6"
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 347d60b180fa80e5699d8e2cb72c99c93dda5454
+    extras:
+      artifactId: commons-lang
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: commons-lang
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/commons-lang/commons-lang/2.6
+  - name: commons-logging.commons-logging
+    version: 1.3.5
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 378e7ead6461eabd50a97f6503d061cad0dcae9d
+    extras:
+      artifactId: commons-logging
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: commons-logging
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/commons-logging/commons-logging/1.3.5
+  - name: de.codecentric.chaos-monkey-spring-boot
+    version: 3.1.0
+    type: "compile\r"
+    resolvedIdentifier: f9a05da049b586b2057d6f07e84752caa1f0105e
+    extras:
+      artifactId: chaos-monkey-spring-boot
+      groupId: de.codecentric
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/de/codecentric/chaos-monkey-spring-boot/3.1.0
+  - name: io.github.x-stream.mxparser
+    version: 1.2.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: cb8503fb7e26d29467db5d3e4b5c58c3a2b16788
+    extras:
+      artifactId: mxparser
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: io.github.x-stream
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/github/x-stream/mxparser/1.2.2
+  - name: io.micrometer.context-propagation
+    version: 1.2.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 4d63fb303ff2a876a168a74378b7fe6967f7ed61
+    extras:
+      artifactId: context-propagation
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/context-propagation/1.2.0
+  - name: io.micrometer.micrometer-commons
+    version: 1.16.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: be30ae4ca7f3a38b3c8f52f496b39ee4788c2600
+    extras:
+      artifactId: micrometer-commons
+      baseDep:
+        extras:
+          artifactId: micrometer-observation
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-observation
+        version: 1.16.1
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/micrometer-commons/1.16.1
+  - name: io.micrometer.micrometer-core
+    version: 1.16.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: d0bcb733ae289d6d26c191f976dca52dcc26fa4f
+    extras:
+      artifactId: micrometer-core
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/micrometer-core/1.16.1
+  - name: io.micrometer.micrometer-jakarta9
+    version: 1.16.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 45f08dd5a8a53a10fc79004db31536224ab1a430
+    extras:
+      artifactId: micrometer-jakarta9
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/micrometer-jakarta9/1.16.1
+  - name: io.micrometer.micrometer-observation
+    version: 1.16.1
+    type: "compile\r"
+    resolvedIdentifier: 8cdce2c3d028c6329d5bec0373fa97ad857f6b7f
+    extras:
+      artifactId: micrometer-observation
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/micrometer-observation/1.16.1
+  - name: io.micrometer.micrometer-registry-prometheus
+    version: 1.16.1
+    type: "compile\r"
+    resolvedIdentifier: 243e48cc8a5af9f74530d2f7d9e38fc4d78b9043
+    extras:
+      artifactId: micrometer-registry-prometheus
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/micrometer-registry-prometheus/1.16.1
+  - name: io.micrometer.micrometer-tracing
+    version: 1.6.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 2bb88a7920952c3fe3386400d5cd945e39972599
+    extras:
+      artifactId: micrometer-tracing
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/micrometer-tracing/1.6.1
+  - name: io.micrometer.micrometer-tracing-bridge-brave
+    version: 1.6.1
+    type: "compile\r"
+    resolvedIdentifier: a678ee90516b6e65e792c6ac4739384f2fce874d
+    extras:
+      artifactId: micrometer-tracing-bridge-brave
+      groupId: io.micrometer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/micrometer/micrometer-tracing-bridge-brave/1.6.1
+  - name: io.opentelemetry.opentelemetry-api
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 55606a3a2df83d2c5e569637874706c3a6cd0d32
+    extras:
+      artifactId: opentelemetry-api
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-api/1.55.0
+  - name: io.opentelemetry.opentelemetry-common
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 7a055ce620170db9b750b5f7b8e38fa110b0e385
+    extras:
+      artifactId: opentelemetry-common
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-common/1.55.0
+  - name: io.opentelemetry.opentelemetry-context
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 379db00608c57bfbe9f7f3fb5496ddb8ec86d2c9
+    extras:
+      artifactId: opentelemetry-context
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-context/1.55.0
+  - name: io.opentelemetry.opentelemetry-exporter-common
+    version: 1.55.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: d6c83163bce493f2fd71a0f7efe3a105c52e9850
+    extras:
+      artifactId: opentelemetry-exporter-common
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.55.0
+  - name: io.opentelemetry.opentelemetry-exporter-zipkin
+    version: 1.55.0
+    type: "compile\r"
+    resolvedIdentifier: b9e1d83e74ae210d3f34bb508f3357a22b255c5b
+    extras:
+      artifactId: opentelemetry-exporter-zipkin
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-exporter-zipkin/1.55.0
+  - name: io.opentelemetry.opentelemetry-sdk
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 82cf01504db5dc9c5f35c8abe8b94656a7be15f2
+    extras:
+      artifactId: opentelemetry-sdk
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.55.0
+  - name: io.opentelemetry.opentelemetry-sdk-common
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 81f442b520a54a5e486206eb27cbf83171ffaa66
+    extras:
+      artifactId: opentelemetry-sdk-common
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.55.0
+  - name: io.opentelemetry.opentelemetry-sdk-extension-autoconfigure-spi
+    version: 1.55.0
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: c888691b6eda7508c5f28dfeb65b89999bfbdbfe
+    extras:
+      artifactId: opentelemetry-sdk-extension-autoconfigure-spi
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.55.0
+  - name: io.opentelemetry.opentelemetry-sdk-logs
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 864223f6f971b6092313501b3ec1ac6f22fb1393
+    extras:
+      artifactId: opentelemetry-sdk-logs
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.55.0
+  - name: io.opentelemetry.opentelemetry-sdk-metrics
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 3cb9836c035735eb6a0f4431b5d9a89bd40d7c7d
+    extras:
+      artifactId: opentelemetry-sdk-metrics
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.55.0
+  - name: io.opentelemetry.opentelemetry-sdk-trace
+    version: 1.55.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: f461c34f93271a05258371c87d2a324a7dad0b6e
+    extras:
+      artifactId: opentelemetry-sdk-trace
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.opentelemetry
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.55.0
+  - name: io.projectreactor.addons.reactor-extra
+    version: 3.6.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: ff21f0df71dea1eee6d7424c87109fa501e6437d
+    extras:
+      artifactId: reactor-extra
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: io.projectreactor.addons
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/projectreactor/addons/reactor-extra/3.6.0
+  - name: io.projectreactor.reactor-core
+    version: 3.8.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 1d603864f1256f2b227b0df40774df633c3097c8
+    extras:
+      artifactId: reactor-core
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: io.projectreactor
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/projectreactor/reactor-core/3.8.1
+  - name: io.prometheus.prometheus-metrics-config
+    version: 1.4.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: d81d3e1c7b62a8bc67a6b82d936add246bc3170f
+    extras:
+      artifactId: prometheus-metrics-config
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: io.prometheus
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/prometheus/prometheus-metrics-config/1.4.3
+  - name: io.prometheus.prometheus-metrics-core
+    version: 1.4.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 6ee71e7a1895654d4534f1a4e37018a8eca5cba6
+    extras:
+      artifactId: prometheus-metrics-core
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: io.prometheus
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/prometheus/prometheus-metrics-core/1.4.3
+  - name: io.prometheus.prometheus-metrics-exposition-formats
+    version: 1.4.3
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 0a40c62c650d026a900e5b512b533ec9b322e35d
+    extras:
+      artifactId: prometheus-metrics-exposition-formats
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: io.prometheus
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/prometheus/prometheus-metrics-exposition-formats/1.4.3
+  - name: io.prometheus.prometheus-metrics-exposition-textformats
+    version: 1.4.3
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 24b14ccb92b490ec378a48dbb5f6fa9066c9ffa6
+    extras:
+      artifactId: prometheus-metrics-exposition-textformats
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: io.prometheus
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/prometheus/prometheus-metrics-exposition-textformats/1.4.3
+  - name: io.prometheus.prometheus-metrics-model
+    version: 1.4.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: bb710ef7c97e0cd46e9fe5b291e30fdc2352fb99
+    extras:
+      artifactId: prometheus-metrics-model
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: io.prometheus
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/prometheus/prometheus-metrics-model/1.4.3
+  - name: io.prometheus.prometheus-metrics-tracer-common
+    version: 1.4.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 412f9dec58e8b7c8e596699edb3000434c2ac374
+    extras:
+      artifactId: prometheus-metrics-tracer-common
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: io.prometheus
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/prometheus/prometheus-metrics-tracer-common/1.4.3
+  - name: io.zipkin.aws.brave-propagation-aws
+    version: 1.3.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 7e1dac86d36b27e55f216eeba23bc85c64f210f6
+    extras:
+      artifactId: brave-propagation-aws
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: io.zipkin.aws
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/aws/brave-propagation-aws/1.3.0
+  - name: io.zipkin.brave.brave
+    version: 6.3.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 991fb2eecb557ef28602eabb5c099c4451412203
+    extras:
+      artifactId: brave
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: io.zipkin.brave
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/brave/brave/6.3.0
+  - name: io.zipkin.brave.brave-context-slf4j
+    version: 6.3.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 77ac68ee8face2f79657073e21e36e50890fbf3f
+    extras:
+      artifactId: brave-context-slf4j
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: io.zipkin.brave
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/brave/brave-context-slf4j/6.3.0
+  - name: io.zipkin.brave.brave-instrumentation-http
+    version: 6.3.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: da3ab7c322d6884e9efdd1147fe476635b23d0fb
+    extras:
+      artifactId: brave-instrumentation-http
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: io.zipkin.brave
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/brave/brave-instrumentation-http/6.3.0
+  - name: io.zipkin.contrib.brave-propagation-w3c.brave-propagation-tracecontext
+    version: 0.2.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 9a755ca27464c9dc99a05c2e24306e70546eaf7f
+    extras:
+      artifactId: brave-propagation-tracecontext
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: io.zipkin.contrib.brave-propagation-w3c
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0
+  - name: io.zipkin.reporter2.zipkin-reporter
+    version: 3.5.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: df6573c0929e40115c10e65c119ed77acf30ceae
+    extras:
+      artifactId: zipkin-reporter
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.zipkin.reporter2
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/reporter2/zipkin-reporter/3.5.1
+  - name: io.zipkin.reporter2.zipkin-reporter-brave
+    version: 3.5.1
+    type: "compile\r"
+    resolvedIdentifier: 896989d821b76052de12b0f242c4231327268b51
+    extras:
+      artifactId: zipkin-reporter-brave
+      groupId: io.zipkin.reporter2
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/reporter2/zipkin-reporter-brave/3.5.1
+  - name: io.zipkin.reporter2.zipkin-sender-okhttp3
+    version: 3.5.1
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 9d4d4a15114668187d6503458ab0f1919770942d
+    extras:
+      artifactId: zipkin-sender-okhttp3
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.zipkin.reporter2
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/reporter2/zipkin-sender-okhttp3/3.5.1
+  - name: io.zipkin.zipkin2.zipkin
+    version: 2.27.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 5ded7434d0860f69c9905bb7660b2c62ded66493
+    extras:
+      artifactId: zipkin
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: io.zipkin.zipkin2
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/io/zipkin/zipkin2/zipkin/2.27.1
+  - name: jakarta.activation.jakarta.activation-api
+    version: 2.1.4
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 37cd45f7bf83ba8dd26387ffe8bf58e5570ce6d7
+    extras:
+      artifactId: jakarta.activation-api
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: jakarta.activation
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4
+  - name: jakarta.annotation.jakarta.annotation-api
+    version: 3.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 3774955b3c1e7feb18be1fb462886bfb24a9486e
+    extras:
+      artifactId: jakarta.annotation-api
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: jakarta.annotation
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0
+  - name: jakarta.inject.jakarta.inject-api
+    version: 2.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: d53e5e2c5362dc3f6748efac10909af8562b3505
+    extras:
+      artifactId: jakarta.inject-api
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: jakarta.inject
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1
+  - name: jakarta.persistence.jakarta.persistence-api
+    version: 3.2.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 80f492fc4643b89f8a1b0c920b5e53e22ac211e2
+    extras:
+      artifactId: jakarta.persistence-api
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: jakarta.persistence
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.2.0
+  - name: jakarta.transaction.jakarta.transaction-api
+    version: 2.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 5ea0f7ca81255825d28b937eb08d718087a0daa9
+    extras:
+      artifactId: jakarta.transaction-api
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: jakarta.transaction
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1
+  - name: jakarta.validation.jakarta.validation-api
+    version: 3.1.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: e34bafc0fb938e0f2c9cdd7bc6df2f9cac8abba6
+    extras:
+      artifactId: jakarta.validation-api
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: jakarta.validation
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/validation/jakarta.validation-api/3.1.1
+  - name: jakarta.ws.rs.jakarta.ws.rs-api
+    version: 4.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 7fee804aa18eea1cb6187a90620bdc98732c9123
+    extras:
+      artifactId: jakarta.ws.rs-api
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: jakarta.ws.rs
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/4.0.0
+  - name: jakarta.xml.bind.jakarta.xml.bind-api
+    version: 4.0.4
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: d08b9a39d5ed420a149e70316fbcbbd54852cd1a
+    extras:
+      artifactId: jakarta.xml.bind-api
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: jakarta.xml.bind
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4
+  - name: javax.annotation.javax.annotation-api
+    version: "1.2"
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: d90e6c7f83898fe30f83aeaf4d411285f970a433
+    extras:
+      artifactId: javax.annotation-api
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: javax.annotation
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/javax/annotation/javax.annotation-api/1.2
+  - name: joda-time.joda-time
+    version: "2.3"
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 1673e7e7cf3b24e9808f0133f03e51d10812de66
+    extras:
+      artifactId: joda-time
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: joda-time
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/joda-time/joda-time/2.3
+  - name: net.bytebuddy.byte-buddy
+    version: 1.17.8
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 75ad9a4876b1dc575b39dae8d28642100def23f3
+    extras:
+      artifactId: byte-buddy
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: net.bytebuddy
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/net/bytebuddy/byte-buddy/1.17.8
+  - name: net.bytebuddy.byte-buddy-agent
+    version: 1.17.8
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 416ee0b0cbdf3da058fc94c49bbb0da64c96f6f4
+    extras:
+      artifactId: byte-buddy-agent
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: net.bytebuddy
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8
+  - name: net.minidev.accessors-smart
+    version: 2.6.0
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: bfa73bc832ab05f3e339e705ffc7f3ef3f3b3fe9
+    extras:
+      artifactId: accessors-smart
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: net.minidev
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/net/minidev/accessors-smart/2.6.0
+  - name: net.minidev.json-smart
+    version: 2.6.0
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 9a4c3140bb509c9dac1345ac9cc4f9b185936652
+    extras:
+      artifactId: json-smart
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: net.minidev
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/net/minidev/json-smart/2.6.0
+  - name: net.ttddyy.datasource-proxy
+    version: 1.11.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 5fe09c4e225745881b0a5d8d5a287466429127fb
+    extras:
+      artifactId: datasource-proxy
+      baseDep:
+        extras:
+          artifactId: datasource-micrometer-spring-boot
+          groupId: net.ttddyy.observation
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: net.ttddyy.observation.datasource-micrometer-spring-boot
+        version: 2.0.1
+      groupId: net.ttddyy
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/net/ttddyy/datasource-proxy/1.11.0
+  - name: net.ttddyy.observation.datasource-micrometer
+    version: 2.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: cb0df9b62ae55905b630de5c425a945f86de20c4
+    extras:
+      artifactId: datasource-micrometer
+      baseDep:
+        extras:
+          artifactId: datasource-micrometer-spring-boot
+          groupId: net.ttddyy.observation
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: net.ttddyy.observation.datasource-micrometer-spring-boot
+        version: 2.0.1
+      groupId: net.ttddyy.observation
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/net/ttddyy/observation/datasource-micrometer/2.0.1
+  - name: net.ttddyy.observation.datasource-micrometer-spring-boot
+    version: 2.0.1
+    type: "compile\r"
+    resolvedIdentifier: 3aa182fa6bee348404c7b4da6c362bd7eba23832
+    extras:
+      artifactId: datasource-micrometer-spring-boot
+      groupId: net.ttddyy.observation
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/net/ttddyy/observation/datasource-micrometer-spring-boot/2.0.1
+  - name: org.antlr.antlr-runtime
+    version: "3.4"
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: f17559949c44edf8a8269187e3cbfe6bd45de315
+    extras:
+      artifactId: antlr-runtime
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.antlr
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/antlr/antlr-runtime/3.4
+  - name: org.antlr.antlr4-runtime
+    version: 4.13.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: d07a9559966ddaa848df4dd2099f15ceaab173ca
+    extras:
+      artifactId: antlr4-runtime
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.antlr
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/antlr/antlr4-runtime/4.13.2
+  - name: org.antlr.stringtemplate
+    version: 3.2.1
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 88562344bdb06d01a8f410aa624538e345086595
+    extras:
+      artifactId: stringtemplate
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.antlr
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/antlr/stringtemplate/3.2.1
+  - name: org.apache.commons.commons-math
+    version: "2.2"
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: f12739a93a2899ef75dfb7bd44b6fe4ba96400d4
+    extras:
+      artifactId: commons-math
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.apache.commons
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/commons/commons-math/2.2
+  - name: org.apache.httpcomponents.client5.httpclient5
+    version: 5.5.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 65c367c5802c3ad030ef79fef924296d8e4990f4
+    extras:
+      artifactId: httpclient5
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.apache.httpcomponents.client5
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.5.1
+  - name: org.apache.httpcomponents.core5.httpcore5
+    version: 5.3.6
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 6cb5345bd550735be72fd0ece15bd2ca1ed27595
+    extras:
+      artifactId: httpcore5
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.apache.httpcomponents.core5
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.6
+  - name: org.apache.httpcomponents.core5.httpcore5-h2
+    version: 5.3.6
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 498f1e71fffc835edc3e9a42b3bcfcf2a804f0f4
+    extras:
+      artifactId: httpcore5-h2
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.apache.httpcomponents.core5
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6
+  - name: org.apache.httpcomponents.httpclient
+    version: 4.5.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 27f5d747aad49d36750ef3dffa30687963b4ddcd
+    extras:
+      artifactId: httpclient
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.apache.httpcomponents
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3
+  - name: org.apache.httpcomponents.httpcore
+    version: 4.4.16
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: fdcd45abd94151f990a359e1d367e325cfb50286
+    extras:
+      artifactId: httpcore
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.apache.httpcomponents
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16
+  - name: org.apache.logging.log4j.log4j-api
+    version: 2.25.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 5a869b82014fb62c4ea677f1308717e0262e763c
+    extras:
+      artifactId: log4j-api
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.apache.logging.log4j
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3
+  - name: org.apache.logging.log4j.log4j-to-slf4j
+    version: 2.25.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 9fdf98e14a12797d1a9bd7ab8e63d8f09a40499a
+    extras:
+      artifactId: log4j-to-slf4j
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.apache.logging.log4j
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.3
+  - name: org.apache.tomcat.embed.tomcat-embed-core
+    version: 11.0.15
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 1014fee4412159edeebeed9f37a288ac4a7f4119
+    extras:
+      artifactId: tomcat-embed-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.apache.tomcat.embed
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/11.0.15
+  - name: org.apache.tomcat.embed.tomcat-embed-el
+    version: 11.0.15
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: a4e0f06976d46b4c7872ec2f317856b4c2a0cf46
+    extras:
+      artifactId: tomcat-embed-el
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.apache.tomcat.embed
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/11.0.15
+  - name: org.apache.tomcat.embed.tomcat-embed-websocket
+    version: 11.0.15
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: f97f70b5ec817d712259df4ba5e81271eb60eef6
+    extras:
+      artifactId: tomcat-embed-websocket
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.apache.tomcat.embed
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/11.0.15
+  - name: org.apiguardian.apiguardian-api
+    version: 1.1.2
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: ce9568cec632f7c99fb26d13c4d5c89517349f6b
+    extras:
+      artifactId: apiguardian-api
+      baseDep:
+        extras:
+          artifactId: junit-jupiter-api
+          groupId: org.junit.jupiter
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.junit.jupiter.junit-jupiter-api
+        version: 6.0.1
+      groupId: org.apiguardian
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/apiguardian/apiguardian-api/1.1.2
+  - name: org.aspectj.aspectjweaver
+    version: 1.9.25.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: ed10c5d0d11143312a444a25d2619c2b5e74152c
+    extras:
+      artifactId: aspectjweaver
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.aspectj
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/aspectj/aspectjweaver/1.9.25.1
+  - name: org.assertj.assertj-core
+    version: 3.27.6
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 4525f18b8a7ce13aa842072b261cf67e69fde7bd
+    extras:
+      artifactId: assertj-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.assertj
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/assertj/assertj-core/3.27.6
+  - name: org.awaitility.awaitility
+    version: 4.3.0
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 301c425332ad3ac724f4ef79118ac9f001cf6996
+    extras:
+      artifactId: awaitility
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.awaitility
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/awaitility/awaitility/4.3.0
+  - name: org.bouncycastle.bcprov-jdk18on
+    version: "1.81"
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 828efeeeda2c9a62c2741f1c55fde3324f523be1
+    extras:
+      artifactId: bcprov-jdk18on
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.bouncycastle
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.81
+  - name: org.codehaus.jettison.jettison
+    version: 1.5.4
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 0bff475742af13b074e15bfc4b765c02a86863fd
+    extras:
+      artifactId: jettison
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.codehaus.jettison
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/codehaus/jettison/jettison/1.5.4
+  - name: org.eclipse.angus.angus-activation
+    version: 2.0.3
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 542229910dfee918ffa562c8d19d146fc05fe1d8
+    extras:
+      artifactId: angus-activation
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.eclipse.angus
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/eclipse/angus/angus-activation/2.0.3
+  - name: org.glassfish.jaxb.jaxb-core
+    version: 4.0.6
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: d5e3cc0d9266350abb77b8e3295858b2c3d32518
+    extras:
+      artifactId: jaxb-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.glassfish.jaxb
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.6
+  - name: org.glassfish.jaxb.jaxb-runtime
+    version: 4.0.6
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: c37e3ade05b9b3ff5801b0bac85b41745f5103da
+    extras:
+      artifactId: jaxb-runtime
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.glassfish.jaxb
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.6
+  - name: org.glassfish.jaxb.txw2
+    version: 4.0.6
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: be583548df5da9c8e8bb2b9e396296bb5b4124ef
+    extras:
+      artifactId: txw2
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.glassfish.jaxb
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/glassfish/jaxb/txw2/4.0.6
+  - name: org.hamcrest.hamcrest
+    version: "3.0"
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 3c85240a040ddb51dc33d405ef0e075ec68b6796
+    extras:
+      artifactId: hamcrest
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.hamcrest
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/hamcrest/hamcrest/3.0
+  - name: org.hdrhistogram.HdrHistogram
+    version: 2.2.2
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 824c7f02ba75bfce93dafdd63c62a1808ce2767d
+    extras:
+      artifactId: HdrHistogram
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: org.hdrhistogram
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2
+  - name: org.hibernate.models.hibernate-models
+    version: 1.0.1
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 243f0a38d606d12c09bf103d4158a7802d89f50c
+    extras:
+      artifactId: hibernate-models
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.hibernate.models
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/hibernate/models/hibernate-models/1.0.1
+  - name: org.hibernate.orm.hibernate-core
+    version: 7.2.0.Final
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 01faa5eeed8e4c8a399d74db29cca28da1cda68c
+    extras:
+      artifactId: hibernate-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.hibernate.orm
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/hibernate/orm/hibernate-core/7.2.0.Final
+  - name: org.hibernate.validator.hibernate-validator
+    version: 9.0.1.Final
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 249114628adf1249171ac628e4af1d725e6801f5
+    extras:
+      artifactId: hibernate-validator
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.hibernate.validator
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/hibernate/validator/hibernate-validator/9.0.1.Final
+  - name: org.hsqldb.hsqldb
+    version: 2.7.3
+    type: "runtime\r"
+    resolvedIdentifier: 870110e273509dd230ac8e664b87cc60d134e0dd
+    extras:
+      artifactId: hsqldb
+      groupId: org.hsqldb
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/hsqldb/hsqldb/2.7.3
+  - name: org.jboss.logging.jboss-logging
+    version: 3.6.1.Final
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 97f38f9f48945abd18071cc972168d850bf82e83
+    extras:
+      artifactId: jboss-logging
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.jboss.logging
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final
+  - name: org.jetbrains.annotations
+    version: "13.0"
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: fa7d3d07cc80547e2d15bf4839d3267c637c642f
+    extras:
+      artifactId: annotations
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: org.jetbrains
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jetbrains/annotations/13.0
+  - name: org.jetbrains.kotlin.kotlin-stdlib
+    version: 2.2.21
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 2b7be7d3161001cb0956cde06bbe4dfb3359978c
+    extras:
+      artifactId: kotlin-stdlib
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: org.jetbrains.kotlin
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.2.21
+  - name: org.jetbrains.kotlin.kotlin-stdlib-common
+    version: 1.9.10
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 181777fda8a0067c932c3cb27997c6753dcba730
+    extras:
+      artifactId: kotlin-stdlib-common
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: org.jetbrains.kotlin
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10
+  - name: org.jetbrains.kotlin.kotlin-stdlib-jdk7
+    version: 2.2.21
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: d9a46451c96132ffe2b2c354ee34ad120af4590a
+    extras:
+      artifactId: kotlin-stdlib-jdk7
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: org.jetbrains.kotlin
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.2.21
+  - name: org.jetbrains.kotlin.kotlin-stdlib-jdk8
+    version: 2.2.21
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 0211969cc3692a706cbfc4726d18113b5188cf76
+    extras:
+      artifactId: kotlin-stdlib-jdk8
+      baseDep:
+        extras:
+          artifactId: opentelemetry-exporter-zipkin
+          groupId: io.opentelemetry
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.opentelemetry.opentelemetry-exporter-zipkin
+        version: 1.55.0
+      groupId: org.jetbrains.kotlin
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.2.21
+  - name: org.jolokia.jolokia-core
+    version: 1.7.1
+    type: "compile\r"
+    resolvedIdentifier: 94848503031e5388b3c07507f00f42cc2c536a99
+    extras:
+      artifactId: jolokia-core
+      groupId: org.jolokia
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jolokia/jolokia-core/1.7.1
+  - name: org.jspecify.jspecify
+    version: 1.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: fae4a252aeee8a649653b2f239067bcead8f80cb
+    extras:
+      artifactId: jspecify
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: org.jspecify
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/jspecify/jspecify/1.0.0
+  - name: org.junit.jupiter.junit-jupiter
+    version: 6.0.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 7a7b8ef24e1bcb8663cc22c216bc46fa9aa995c4
+    extras:
+      artifactId: junit-jupiter
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.junit.jupiter
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/junit/jupiter/junit-jupiter/6.0.1
+  - name: org.junit.jupiter.junit-jupiter-api
+    version: 6.0.1
+    type: "test\r"
+    resolvedIdentifier: 334a205803f524158c711714ae026797617b0319
+    extras:
+      artifactId: junit-jupiter-api
+      groupId: org.junit.jupiter
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/junit/jupiter/junit-jupiter-api/6.0.1
+  - name: org.junit.jupiter.junit-jupiter-engine
+    version: 6.0.1
+    type: "test\r"
+    resolvedIdentifier: fd6aca84c7fbb2b401355cac1399f33e8ede12f1
+    extras:
+      artifactId: junit-jupiter-engine
+      groupId: org.junit.jupiter
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/junit/jupiter/junit-jupiter-engine/6.0.1
+  - name: org.junit.jupiter.junit-jupiter-params
+    version: 6.0.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 272301082d78012b88520befcbd6a906c4dc27f6
+    extras:
+      artifactId: junit-jupiter-params
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.junit.jupiter
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/junit/jupiter/junit-jupiter-params/6.0.1
+  - name: org.junit.platform.junit-platform-commons
+    version: 6.0.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 7d02259614b160ecc1b44ab34a682e1e2171770e
+    extras:
+      artifactId: junit-platform-commons
+      baseDep:
+        extras:
+          artifactId: junit-jupiter-api
+          groupId: org.junit.jupiter
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.junit.jupiter.junit-jupiter-api
+        version: 6.0.1
+      groupId: org.junit.platform
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/junit/platform/junit-platform-commons/6.0.1
+  - name: org.junit.platform.junit-platform-engine
+    version: 6.0.1
+    type: "test\r"
+    resolvedIdentifier: 5d738901984e1e56f38ddd862926c239caf657e9
+    extras:
+      artifactId: junit-platform-engine
+      groupId: org.junit.platform
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/junit/platform/junit-platform-engine/6.0.1
+  - name: org.latencyutils.LatencyUtils
+    version: 2.0.3
+    type: "runtime\r"
+    indirect: true
+    resolvedIdentifier: 5baec26b6f9e5b17fdd200fc20af85eead4287c4
+    extras:
+      artifactId: LatencyUtils
+      baseDep:
+        extras:
+          artifactId: micrometer-registry-prometheus
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-registry-prometheus
+        version: 1.16.1
+      groupId: org.latencyutils
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/latencyutils/LatencyUtils/2.0.3
+  - name: org.mockito.mockito-core
+    version: 5.20.0
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 05df8fa585d83d884f21e37b350616b9ffaefa64
+    extras:
+      artifactId: mockito-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.mockito
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/mockito/mockito-core/5.20.0
+  - name: org.mockito.mockito-junit-jupiter
+    version: 5.20.0
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 9344ccdd04bda024f1ab2a2b5b726b5c504ff3a4
+    extras:
+      artifactId: mockito-junit-jupiter
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.mockito
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/mockito/mockito-junit-jupiter/5.20.0
+  - name: org.objenesis.objenesis
+    version: "3.3"
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 8da1208285232e541d0bbb869bbe66af6ec6abb4
+    extras:
+      artifactId: objenesis
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.objenesis
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/objenesis/objenesis/3.3
+  - name: org.opentest4j.opentest4j
+    version: 1.3.0
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 73f3c942f86fd30bcf1759e2f9db6e9cc0e59c32
+    extras:
+      artifactId: opentest4j
+      baseDep:
+        extras:
+          artifactId: junit-jupiter-api
+          groupId: org.junit.jupiter
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.junit.jupiter.junit-jupiter-api
+        version: 6.0.1
+      groupId: org.opentest4j
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/opentest4j/opentest4j/1.3.0
+  - name: org.ow2.asm.asm
+    version: 9.7.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 381a4b6892969305d88ee13c53e88eabff82d382
+    extras:
+      artifactId: asm
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.ow2.asm
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/ow2/asm/asm/9.7.1
+  - name: org.reactivestreams.reactive-streams
+    version: 1.0.4
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 1ca52a3b51493500972199a713c886d38e03ac15
+    extras:
+      artifactId: reactive-streams
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.reactivestreams
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/reactivestreams/reactive-streams/1.0.4
+  - name: org.skyscreamer.jsonassert
+    version: 1.5.3
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 3a70866a77f30edb22785baf9a21be61051f5e38
+    extras:
+      artifactId: jsonassert
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.skyscreamer
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/skyscreamer/jsonassert/1.5.3
+  - name: org.slf4j.jcl-over-slf4j
+    version: 2.0.17
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: b8aa69e50f4fb6175cbd3fa90dd603f80a0cd568
+    extras:
+      artifactId: jcl-over-slf4j
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.slf4j
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.17
+  - name: org.slf4j.jul-to-slf4j
+    version: 2.0.17
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: ad7bb01822de6d6944e06310526b400fcb929a8c
+    extras:
+      artifactId: jul-to-slf4j
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.slf4j
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17
+  - name: org.slf4j.slf4j-api
+    version: 2.0.17
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 0570964f8e6716b09c354c6e334ba1a092464d85
+    extras:
+      artifactId: slf4j-api
+      baseDep:
+        extras:
+          artifactId: micrometer-tracing-bridge-brave
+          groupId: io.micrometer
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: io.micrometer.micrometer-tracing-bridge-brave
+        version: 1.6.1
+      groupId: org.slf4j
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/slf4j/slf4j-api/2.0.17
+  - name: org.springframework.boot.spring-boot
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: ec498aab54631d914ef8e50d600238524b022a96
+    extras:
+      artifactId: spring-boot
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot/4.0.1
+  - name: org.springframework.boot.spring-boot-actuator
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 75fc72f0117687ceb57a28660667ec63a4b1d191
+    extras:
+      artifactId: spring-boot-actuator
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-actuator/4.0.1
+  - name: org.springframework.boot.spring-boot-actuator-autoconfigure
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 64bb364a73425803673f7a522d613d7b265af491
+    extras:
+      artifactId: spring-boot-actuator-autoconfigure
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/4.0.1
+  - name: org.springframework.boot.spring-boot-autoconfigure
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: af4c22121dc7d620ddb36f8884643ed18dbcf4da
+    extras:
+      artifactId: spring-boot-autoconfigure
+      baseDep:
+        extras:
+          artifactId: datasource-micrometer-spring-boot
+          groupId: net.ttddyy.observation
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: net.ttddyy.observation.datasource-micrometer-spring-boot
+        version: 2.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.0.1
+  - name: org.springframework.boot.spring-boot-cache
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: de2d97ccb32ab7e858660394cf0a5fb0931b9839
+    extras:
+      artifactId: spring-boot-cache
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-cache/4.0.1
+  - name: org.springframework.boot.spring-boot-configuration-processor
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 7647a83ec85956d24f6cf7ddd98061286b9998ff
+    extras:
+      artifactId: spring-boot-configuration-processor
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/4.0.1
+  - name: org.springframework.boot.spring-boot-data-commons
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 30f239a1a976d0ef4f3746ce38e5d2fd98a5cedb
+    extras:
+      artifactId: spring-boot-data-commons
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-data-commons/4.0.1
+  - name: org.springframework.boot.spring-boot-data-jpa
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 2009b9a77cf89e33d06a8fec3daf29250c0d66d2
+    extras:
+      artifactId: spring-boot-data-jpa
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-data-jpa/4.0.1
+  - name: org.springframework.boot.spring-boot-health
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 70e3e2af2609b784c519536b2d32402c83c8a852
+    extras:
+      artifactId: spring-boot-health
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-health/4.0.1
+  - name: org.springframework.boot.spring-boot-hibernate
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 095ce80f3501d5ae5c10152ee67267018a4bfbe8
+    extras:
+      artifactId: spring-boot-hibernate
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-hibernate/4.0.1
+  - name: org.springframework.boot.spring-boot-http-converter
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: c4d85c7996e9e1cb8f8c3a5c9051661dbb059867
+    extras:
+      artifactId: spring-boot-http-converter
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-http-converter/4.0.1
+  - name: org.springframework.boot.spring-boot-jackson
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: af15cd0ab6ebe47c87c4836d8a6095832a6e34b0
+    extras:
+      artifactId: spring-boot-jackson
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-jackson/4.0.1
+  - name: org.springframework.boot.spring-boot-jackson2
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 631c36b75960381762a5febf9038ddd65fda7e6b
+    extras:
+      artifactId: spring-boot-jackson2
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-jackson2/4.0.1
+  - name: org.springframework.boot.spring-boot-jdbc
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 09d37352ae2e46e86119443fe79628b9aa915dfb
+    extras:
+      artifactId: spring-boot-jdbc
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-jdbc/4.0.1
+  - name: org.springframework.boot.spring-boot-jpa
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: bae2b6b026992fb4b8fddf0f9b373524747fcdc4
+    extras:
+      artifactId: spring-boot-jpa
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-jpa/4.0.1
+  - name: org.springframework.boot.spring-boot-micrometer-metrics
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: f17408bc6098231b4d574254f40b8f8352ebacca
+    extras:
+      artifactId: spring-boot-micrometer-metrics
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-micrometer-metrics/4.0.1
+  - name: org.springframework.boot.spring-boot-micrometer-observation
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 9056df6f45a831a6430ab93a96b86e26b7530682
+    extras:
+      artifactId: spring-boot-micrometer-observation
+      baseDep:
+        extras:
+          artifactId: datasource-micrometer-spring-boot
+          groupId: net.ttddyy.observation
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: net.ttddyy.observation.datasource-micrometer-spring-boot
+        version: 2.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-micrometer-observation/4.0.1
+  - name: org.springframework.boot.spring-boot-micrometer-tracing
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 935ed59c18c1b8a70bdf598c20c640997b4308d4
+    extras:
+      artifactId: spring-boot-micrometer-tracing
+      baseDep:
+        extras:
+          artifactId: datasource-micrometer-spring-boot
+          groupId: net.ttddyy.observation
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: net.ttddyy.observation.datasource-micrometer-spring-boot
+        version: 2.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-micrometer-tracing/4.0.1
+  - name: org.springframework.boot.spring-boot-persistence
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: a99228dc8265d3b5ba58791510e8bd9d3d7f7483
+    extras:
+      artifactId: spring-boot-persistence
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-persistence/4.0.1
+  - name: org.springframework.boot.spring-boot-resttestclient
+    version: 4.0.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 7463c8d7cef4caa62e56dc0fcb84f153851058a5
+    extras:
+      artifactId: spring-boot-resttestclient
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc-test
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-resttestclient/4.0.1
+  - name: org.springframework.boot.spring-boot-servlet
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: ec43412fb83d86edf8ccd8930c5cb2fea8a002f3
+    extras:
+      artifactId: spring-boot-servlet
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-servlet/4.0.1
+  - name: org.springframework.boot.spring-boot-sql
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 0f3591bde7bf2804f6cac59d1f5836e7e21801d4
+    extras:
+      artifactId: spring-boot-sql
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-sql/4.0.1
+  - name: org.springframework.boot.spring-boot-starter
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 8878ff9261c29ee0b302519a099bf093ee8fe914
+    extras:
+      artifactId: spring-boot-starter
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-actuator
+    version: 4.0.1
+    type: "compile\r"
+    resolvedIdentifier: 5ef8bb66aa3a403565abc736be1731935c6e60ed
+    extras:
+      artifactId: spring-boot-starter-actuator
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-cache
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: f806a09d55fd22bc07094943dbe4db1d935e244f
+    extras:
+      artifactId: spring-boot-starter-cache
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-cache/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-data-jpa
+    version: 4.0.1
+    type: "compile\r"
+    resolvedIdentifier: b85685eb0097345644117b6fd366cb66f2ed2e93
+    extras:
+      artifactId: spring-boot-starter-data-jpa
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-jackson
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 59c89eab392268fb3e1280dfd39fcc5d029f40c4
+    extras:
+      artifactId: spring-boot-starter-jackson
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-jackson/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-jackson-test
+    version: 4.0.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: ebaff9617b9c52c370fde6834b62a1338a466529
+    extras:
+      artifactId: spring-boot-starter-jackson-test
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc-test
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-jackson-test/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-jdbc
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: ebe8a37b7f815faca3b71ea3e1eaa7b986b2341e
+    extras:
+      artifactId: spring-boot-starter-jdbc
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-logging
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: b2064a99640b3153f7787a5516bc1d85e1d2c2af
+    extras:
+      artifactId: spring-boot-starter-logging
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-micrometer-metrics
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 60b534e0c685c98b8ceaa482aa2a9338cfda0d0e
+    extras:
+      artifactId: spring-boot-starter-micrometer-metrics
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-micrometer-metrics/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-test
+    version: 4.0.1
+    type: "test\r"
+    resolvedIdentifier: cb5841698fde87dc41657e5f9ea8affb2a4aaf29
+    extras:
+      artifactId: spring-boot-starter-test
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-test/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-tomcat
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 442d53d7dd8281cec3847645f4b6c0887b815727
+    extras:
+      artifactId: spring-boot-starter-tomcat
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-tomcat-runtime
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 6c2cd61539bf27bc3fafb8d05a4cff1b6767694d
+    extras:
+      artifactId: spring-boot-starter-tomcat-runtime
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat-runtime/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-validation
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: fc5ec0e5fda09ced1f22b6f6bf661ceeba9b8826
+    extras:
+      artifactId: spring-boot-starter-validation
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-validation/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-webmvc
+    version: 4.0.1
+    type: "compile\r"
+    resolvedIdentifier: 7758abd125535413899106cdfe35334cac99f528
+    extras:
+      artifactId: spring-boot-starter-webmvc
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-webmvc/4.0.1
+  - name: org.springframework.boot.spring-boot-starter-webmvc-test
+    version: 4.0.1
+    type: "test\r"
+    resolvedIdentifier: 9fa2a56ebf3bfb589de78af8c18195f651fd18d8
+    extras:
+      artifactId: spring-boot-starter-webmvc-test
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-starter-webmvc-test/4.0.1
+  - name: org.springframework.boot.spring-boot-test
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 212adc18923b574b0057629e5feaa011afbafd86
+    extras:
+      artifactId: spring-boot-test
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-test/4.0.1
+  - name: org.springframework.boot.spring-boot-test-autoconfigure
+    version: 4.0.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 4608ddf1f3adaf77737c68abf3cbacbdef02dc9f
+    extras:
+      artifactId: spring-boot-test-autoconfigure
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/4.0.1
+  - name: org.springframework.boot.spring-boot-tomcat
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 70e7bddef4096b6131f9fd7fdfb0c6dd9149a331
+    extras:
+      artifactId: spring-boot-tomcat
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-tomcat/4.0.1
+  - name: org.springframework.boot.spring-boot-transaction
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 17214c8bc20a35e94eedf8ed6195baaf86cfb7f6
+    extras:
+      artifactId: spring-boot-transaction
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-transaction/4.0.1
+  - name: org.springframework.boot.spring-boot-validation
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 42945f5292f5fe9dbf610b15b0da4168f2d408df
+    extras:
+      artifactId: spring-boot-validation
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-validation/4.0.1
+  - name: org.springframework.boot.spring-boot-web-server
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: bb68384e08b10071e50a0cf24f69905b814a06b0
+    extras:
+      artifactId: spring-boot-web-server
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc-test
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-web-server/4.0.1
+  - name: org.springframework.boot.spring-boot-webmvc
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 1e18470d6151233bba4d3f089cc8ec720652db08
+    extras:
+      artifactId: spring-boot-webmvc
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-webmvc/4.0.1
+  - name: org.springframework.boot.spring-boot-webmvc-test
+    version: 4.0.1
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: 7e342538bea4b1cf468ff2a9b6b237086ebaef84
+    extras:
+      artifactId: spring-boot-webmvc-test
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc-test
+        version: 4.0.1
+      groupId: org.springframework.boot
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/boot/spring-boot-webmvc-test/4.0.1
+  - name: org.springframework.cloud.spring-cloud-commons
+    version: 5.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 9880d8f55fe392da4a414f3d41bbefa01a5f1a42
+    extras:
+      artifactId: spring-cloud-commons
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-commons/5.0.0
+  - name: org.springframework.cloud.spring-cloud-config-client
+    version: 5.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 7bae59781195990c0856cf50daadc665cbc54b44
+    extras:
+      artifactId: spring-cloud-config-client
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-config-client/5.0.0
+  - name: org.springframework.cloud.spring-cloud-context
+    version: 5.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 1739df6a310717d59fd4fa447997f9778571861e
+    extras:
+      artifactId: spring-cloud-context
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-context/5.0.0
+  - name: org.springframework.cloud.spring-cloud-loadbalancer
+    version: 5.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 01a5eb5a0008ad59e8f50ac39c30097fe07e8a9e
+    extras:
+      artifactId: spring-cloud-loadbalancer
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-loadbalancer/5.0.0
+  - name: org.springframework.cloud.spring-cloud-netflix-eureka-client
+    version: 5.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: bfa7d65a53f83cb4535e94c4fb5aed889bed8ef8
+    extras:
+      artifactId: spring-cloud-netflix-eureka-client
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/5.0.0
+  - name: org.springframework.cloud.spring-cloud-starter
+    version: 5.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 3f92802e34cf6f2d545c985e30469b3c249e82e9
+    extras:
+      artifactId: spring-cloud-starter
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-starter/5.0.0
+  - name: org.springframework.cloud.spring-cloud-starter-config
+    version: 5.0.0
+    type: "compile\r"
+    resolvedIdentifier: 088c48ce5a106dc5857b49be90ca6c81b4138ce2
+    extras:
+      artifactId: spring-cloud-starter-config
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/5.0.0
+  - name: org.springframework.cloud.spring-cloud-starter-loadbalancer
+    version: 5.0.0
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 2f751a620bfec56af65b13fced03cb08ad4177e5
+    extras:
+      artifactId: spring-cloud-starter-loadbalancer
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/5.0.0
+  - name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+    version: 5.0.0
+    type: "compile\r"
+    resolvedIdentifier: 2052680fd7463994bc8ada6a60feac73b0cbc1b6
+    extras:
+      artifactId: spring-cloud-starter-netflix-eureka-client
+      groupId: org.springframework.cloud
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/5.0.0
+  - name: org.springframework.data.spring-data-commons
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 496a19f5cc3ea9a7f4b75631add6eef17f16c542
+    extras:
+      artifactId: spring-data-commons
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.data
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/data/spring-data-commons/4.0.1
+  - name: org.springframework.data.spring-data-jpa
+    version: 4.0.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 4fc8e82c046d02a7ab0fc6bd90be6e59f3ba2490
+    extras:
+      artifactId: spring-data-jpa
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework.data
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/data/spring-data-jpa/4.0.1
+  - name: org.springframework.security.spring-security-crypto
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 9996c95e559b9fdd023e5233b55af2e1f256a98c
+    extras:
+      artifactId: spring-security-crypto
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: org.springframework.security
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/security/spring-security-crypto/7.0.2
+  - name: org.springframework.spring-aop
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 13dc9a887acef7271151f7e1ea224e4f5f76d2ce
+    extras:
+      artifactId: spring-aop
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-aop/7.0.2
+  - name: org.springframework.spring-aspects
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 01d5df25f8dca1e921b3ae89330dee77b753edea
+    extras:
+      artifactId: spring-aspects
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-aspects/7.0.2
+  - name: org.springframework.spring-beans
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 8f0581ea2f1314f69c7ea255abf880efe9c835de
+    extras:
+      artifactId: spring-beans
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-beans/7.0.2
+  - name: org.springframework.spring-context
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: ae65900ae968335ed8cbaea426842a48cf051cd6
+    extras:
+      artifactId: spring-context
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-context/7.0.2
+  - name: org.springframework.spring-context-support
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 95af7969169a597ea9dec5df3a775baf1d903e96
+    extras:
+      artifactId: spring-context-support
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-context-support/7.0.2
+  - name: org.springframework.spring-core
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: a50bca331881d9be4456358d15cd2318cf573a5b
+    extras:
+      artifactId: spring-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-core/7.0.2
+  - name: org.springframework.spring-expression
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: bbb204a0884a674f3eea3f5119b49d3ce50e09d4
+    extras:
+      artifactId: spring-expression
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-expression/7.0.2
+  - name: org.springframework.spring-instrument
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 558b31446515da5c13853e17867cb6ff72dc33e4
+    extras:
+      artifactId: spring-instrument
+      baseDep:
+        extras:
+          artifactId: chaos-monkey-spring-boot
+          groupId: de.codecentric
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: de.codecentric.chaos-monkey-spring-boot
+        version: 3.1.0
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-instrument/7.0.2
+  - name: org.springframework.spring-jdbc
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 9b6841d85cb06966d8583e0a908c4e10c99f8550
+    extras:
+      artifactId: spring-jdbc
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-jdbc/7.0.2
+  - name: org.springframework.spring-orm
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 56f107670a1d4e3547d428ffb527f8f88853a3ab
+    extras:
+      artifactId: spring-orm
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-orm/7.0.2
+  - name: org.springframework.spring-test
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 1432eb0931e4292debbbafe0c13aacbd0a3d9e86
+    extras:
+      artifactId: spring-test
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-test/7.0.2
+  - name: org.springframework.spring-tx
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 9b739dbbe247a82d1280700bd8afb5a65984c6bf
+    extras:
+      artifactId: spring-tx
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-data-jpa
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-data-jpa
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-tx/7.0.2
+  - name: org.springframework.spring-web
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 2378dcce26d2cd4b07a7257de803f9f54dc16585
+    extras:
+      artifactId: spring-web
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-web/7.0.2
+  - name: org.springframework.spring-webmvc
+    version: 7.0.2
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 46c06eb8e14f0aecf3335c03f98d1359e7eebe4a
+    extras:
+      artifactId: spring-webmvc
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-webmvc
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-webmvc
+        version: 4.0.1
+      groupId: org.springframework
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/springframework/spring-webmvc/7.0.2
+  - name: org.xmlunit.xmlunit-core
+    version: 2.10.4
+    type: "test\r"
+    indirect: true
+    resolvedIdentifier: a869b0ec2836929887555df33d1a0c6885360f05
+    extras:
+      artifactId: xmlunit-core
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-test
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-test
+        version: 4.0.1
+      groupId: org.xmlunit
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/xmlunit/xmlunit-core/2.10.4
+  - name: org.yaml.snakeyaml
+    version: "2.5"
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 5140dd9f7e010f8238025f4535bd17f38e67993f
+    extras:
+      artifactId: snakeyaml
+      baseDep:
+        extras:
+          artifactId: spring-boot-starter-actuator
+          groupId: org.springframework.boot
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.boot.spring-boot-starter-actuator
+        version: 4.0.1
+      groupId: org.yaml
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/org/yaml/snakeyaml/2.5
+  - name: tools.jackson.core.jackson-core
+    version: 3.0.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 920717282518a77ac7e65bad6df73d1560168f52
+    extras:
+      artifactId: jackson-core
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: tools.jackson.core
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/tools/jackson/core/jackson-core/3.0.3
+  - name: tools.jackson.core.jackson-databind
+    version: 3.0.3
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: b9e1d184ee207eb09d4f18dcbbe3400c2f738faa
+    extras:
+      artifactId: jackson-databind
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-config
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-config
+        version: 5.0.0
+      groupId: tools.jackson.core
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/tools/jackson/core/jackson-databind/3.0.3
+  - name: xmlpull.xmlpull
+    version: 1.1.3.1
+    type: "compile\r"
+    indirect: true
+    resolvedIdentifier: 02727a9a35d75a77344fea0e9866477aff7c19d6
+    extras:
+      artifactId: xmlpull
+      baseDep:
+        extras:
+          artifactId: spring-cloud-starter-netflix-eureka-client
+          groupId: org.springframework.cloud
+          pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+        name: org.springframework.cloud.spring-cloud-starter-netflix-eureka-client
+        version: 5.0.0
+      groupId: xmlpull
+      pomPath: C:\Users\chiguer\Desktop\spring-petclinic-microservices-main\spring-petclinic-visits-service\pom.xml
+    labels:
+    - konveyor.io/dep-source=open-source
+    - konveyor.io/language=java
+    prefix: file:///C:/Users/chiguer/.m2/repository/xmlpull/xmlpull/1.1.3.1
