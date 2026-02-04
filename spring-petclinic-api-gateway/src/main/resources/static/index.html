@@ -1,95 +1,234 @@
 <!DOCTYPE html>
-
-<html ng-app="petClinicApp" lang="en">
-
+<html lang="fr">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimal-ui"/>
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png"/>
-
-    <title>PetClinic :: a Spring Framework demonstration</title>
-    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/css/petclinic.css"/>
-    <link rel="stylesheet" href="/webjars/font-awesome/css/font-awesome.min.css">
-
-    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
-
-    <script src="/webjars/angularjs/angular.min.js"></script>
-    <script src="/webjars/angular-ui-router/angular-ui-router.min.js"></script>
-
-    <script src="/scripts/app.js"></script>
-    <script src="/scripts/genai/chat.js"></script>
-
-    <script src="/scripts/owner-list/owner-list.js"></script>
-    <script src="/scripts/owner-list/owner-list.controller.js"></script>
-    <script src="/scripts/owner-list/owner-list.component.js"></script>
-
-    <script src="/scripts/owner-details/owner-details.js"></script>
-    <script src="/scripts/owner-details/owner-details.controller.js"></script>
-    <script src="/scripts/owner-details/owner-details.component.js"></script>
-
-    <script src="/scripts/owner-form/owner-form.js"></script>
-    <script src="/scripts/owner-form/owner-form.controller.js"></script>
-    <script src="/scripts/owner-form/owner-form.component.js"></script>
-
-    <script src="/scripts/pet-form/pet-form.js"></script>
-    <script src="/scripts/pet-form/pet-form.controller.js"></script>
-    <script src="/scripts/pet-form/pet-form.component.js"></script>
-
-    <script src="/scripts/visits/visits.js"></script>
-    <script src="/scripts/visits/visits.controller.js"></script>
-    <script src="/scripts/visits/visits.component.js"></script>
-
-    <script src="/scripts/vet-list/vet-list.js"></script>
-    <script src="/scripts/vet-list/vet-list.controller.js"></script>
-    <script src="/scripts/vet-list/vet-list.component.js"></script>
-
-    <script src="/scripts/infrastructure/infrastructure.js"></script>
-    <script src="/scripts/infrastructure/httpErrorHandlingInterceptor.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banque Populaire - Espace Client</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bcp-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
-<layout-nav></layout-nav>
-<div class="container-fluid">
-    <div class="container xd-container">
-        <div ui-view=""></div>
-    </div>
-</div>
-
-<div class="chatbox" id="chatbox">
-    <button class="chatbox-header" onclick="toggleChatbox()">
-        Chat with Us!
-    </button>
-    <div class="chatbox-content" id="chatbox-content">
-        <div class="chatbox-messages" id="chatbox-messages">
-            <!-- Chat messages will be dynamically inserted here -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo-bcp.png" alt="BCP" class="logo-bcp" onerror="this.style.display='none'">
+                BANQUE POPULAIRE
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/owners.html">
+                            <i class="fas fa-users"></i> Clients
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/vets.html">
+                            <i class="fas fa-user-tie"></i> Conseillers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/owners.html">
+                            <i class="fas fa-wallet"></i> Comptes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-exchange-alt"></i> Transactions
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="chatbox-footer">
-            <input type="text" id="chatbox-input" placeholder="Type a message..." onkeydown="handleKeyPress(event)" />
-            <button onclick="sendMessage()">Send</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-3">
+                <i class="fas fa-university"></i> Banque Populaire
+            </h1>
+            <p class="lead" style="font-size: 1.5rem; margin-top: 20px;">
+                <strong>Grandir. Ensemble.</strong>
+            </p>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.3); width: 50%;">
+            <p class="h5">Plateforme de Gestion Bancaire Digitale</p>
         </div>
     </div>
-</div>
 
-<!-- JavaScript for handling chatbox interaction -->
-<script>
+    <!-- Services Cards -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Clients Card -->
+            <div class="col-md-3 mb-4 fade-in">
+                <div class="card h-100">
+                    <div class="card-header text-center">
+                        <i class="fas fa-users fa-3x"></i>
+                        <h5 class="mt-3">Clients</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Gérer les informations des clients et consulter leurs comptes bancaires.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-bcp-orange"></i> Ajout/Modification</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Consultation</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Historique</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="/owners.html" class="btn btn-primary btn-block">
+                            <i class="fas fa-arrow-right"></i> Accéder
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    // Call loadChatMessages when the page loads
-    window.onload = loadChatMessages;
+            <!-- Conseillers Card -->
+            <div class="col-md-3 mb-4 fade-in" style="animation-delay: 0.1s;">
+                <div class="card h-100">
+                    <div class="card-header text-center">
+                        <i class="fas fa-user-tie fa-3x"></i>
+                        <h5 class="mt-3">Conseillers</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Nos conseillers bancaires experts à votre service.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-bcp-orange"></i> Crédit</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Investissement</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Assurance</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="/vets.html" class="btn btn-primary btn-block">
+                            <i class="fas fa-arrow-right"></i> Accéder
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    // Ensure messages are saved when navigating away
-    window.onbeforeunload = saveChatMessages;
-</script>
+            <!-- Comptes Card -->
+            <div class="col-md-3 mb-4 fade-in" style="animation-delay: 0.2s;">
+                <div class="card h-100">
+                    <div class="card-header text-center">
+                        <i class="fas fa-wallet fa-3x"></i>
+                        <h5 class="mt-3">Comptes</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Gérer tous les types de comptes bancaires de vos clients.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-bcp-orange"></i> Compte Courant</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Compte Épargne</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Compte Pro</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="/owners.html" class="btn btn-primary btn-block">
+                            <i class="fas fa-arrow-right"></i> Accéder
+                        </a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Transactions Card -->
+            <div class="col-md-3 mb-4 fade-in" style="animation-delay: 0.3s;">
+                <div class="card h-100">
+                    <div class="card-header text-center">
+                        <i class="fas fa-exchange-alt fa-3x"></i>
+                        <h5 class="mt-3">Transactions</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Consulter et gérer l'historique des opérations bancaires.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-bcp-orange"></i> Virements</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Dépôts</li>
+                            <li><i class="fas fa-check text-bcp-orange"></i> Retraits</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="/" class="btn btn-primary btn-block">
+                            <i class="fas fa-arrow-right"></i> Accéder
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Statistics Section -->
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-bcp-orange"><i class="fas fa-users"></i> 850+</h2>
+                        <p>Clients Satisfaits</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-bcp-orange"><i class="fas fa-user-tie"></i> 25+</h2>
+                        <p>Conseillers Experts</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-bcp-orange"><i class="fas fa-wallet"></i> 1200+</h2>
+                        <p>Comptes Actifs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="text-bcp-orange"><i class="fas fa-exchange-alt"></i> 5000+</h2>
+                        <p>Transactions / Mois</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<script src="/webjars/marked/marked.min.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5><i class="fas fa-university"></i> Banque Populaire</h5>
+                    <p>Première banque coopérative du Maroc</p>
+                    <p><strong>Grandir. Ensemble.</strong></p>
+                </div>
+                <div class="col-md-4">
+                    <h5><i class="fas fa-link"></i> Liens Rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/owners.html">Clients</a></li>
+                        <li><a href="/vets.html">Conseillers</a></li>
+                        <li><a href="/owners.html">Comptes</a></li>
+                        <li><a href="/">Transactions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5><i class="fas fa-phone"></i> Contact</h5>
+                    <p><i class="fas fa-envelope"></i> support@bcp.ma</p>
+                    <p><i class="fas fa-phone"></i> +212 5XX-XXXXXX</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Casablanca, Maroc</p>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center">
+                <p>&copy; 2026 Banque Populaire du Maroc - Tous droits réservés</p>
+                <p>Développé pour le PFE - Projet de Fin d'Études</p>
+            </div>
+        </div>
+    </footer>
 
-<layout-footer></layout-footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

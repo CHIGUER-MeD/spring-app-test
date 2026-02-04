@@ -1,95 +1,96 @@
 <!DOCTYPE html>
-
-<html ng-app="petClinicApp" lang="en">
-
+<html lang="fr">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimal-ui"/>
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png"/>
-
-    <title>PetClinic :: a Spring Framework demonstration</title>
-    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/css/petclinic.css"/>
-    <link rel="stylesheet" href="/webjars/font-awesome/css/font-awesome.min.css">
-
-    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
-
-    <script src="/webjars/angularjs/angular.min.js"></script>
-    <script src="/webjars/angular-ui-router/angular-ui-router.min.js"></script>
-
-    <script src="/scripts/app.js"></script>
-    <script src="/scripts/genai/chat.js"></script>
-
-    <script src="/scripts/owner-list/owner-list.js"></script>
-    <script src="/scripts/owner-list/owner-list.controller.js"></script>
-    <script src="/scripts/owner-list/owner-list.component.js"></script>
-
-    <script src="/scripts/owner-details/owner-details.js"></script>
-    <script src="/scripts/owner-details/owner-details.controller.js"></script>
-    <script src="/scripts/owner-details/owner-details.component.js"></script>
-
-    <script src="/scripts/owner-form/owner-form.js"></script>
-    <script src="/scripts/owner-form/owner-form.controller.js"></script>
-    <script src="/scripts/owner-form/owner-form.component.js"></script>
-
-    <script src="/scripts/pet-form/pet-form.js"></script>
-    <script src="/scripts/pet-form/pet-form.controller.js"></script>
-    <script src="/scripts/pet-form/pet-form.component.js"></script>
-
-    <script src="/scripts/visits/visits.js"></script>
-    <script src="/scripts/visits/visits.controller.js"></script>
-    <script src="/scripts/visits/visits.component.js"></script>
-
-    <script src="/scripts/vet-list/vet-list.js"></script>
-    <script src="/scripts/vet-list/vet-list.controller.js"></script>
-    <script src="/scripts/vet-list/vet-list.component.js"></script>
-
-    <script src="/scripts/infrastructure/infrastructure.js"></script>
-    <script src="/scripts/infrastructure/httpErrorHandlingInterceptor.js"></script>
+    <meta charset="UTF-8">
+    <title>Banque Populaire - Espace Client</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bcp-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
-<layout-nav></layout-nav>
-<div class="container-fluid">
-    <div class="container xd-container">
-        <div ui-view=""></div>
-    </div>
-</div>
-
-<div class="chatbox" id="chatbox">
-    <button class="chatbox-header" onclick="toggleChatbox()">
-        Chat with Us!
-    </button>
-    <div class="chatbox-content" id="chatbox-content">
-        <div class="chatbox-messages" id="chatbox-messages">
-            <!-- Chat messages will be dynamically inserted here -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo-bcp.png" alt="BCP" class="logo-bcp" onerror="this.style.display='none'">
+                BANQUE POPULAIRE
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/clients">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/conseillers">Conseillers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/comptes">Comptes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/transactions">Transactions</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="chatbox-footer">
-            <input type="text" id="chatbox-input" placeholder="Type a message..." onkeydown="handleKeyPress(event)" />
-            <button onclick="sendMessage()">Send</button>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-3">Banque Populaire</h1>
+            <p class="lead">Grandir. Ensemble.</p>
+            <p>Plateforme de Gestion Bancaire Digitale</p>
         </div>
     </div>
-</div>
 
-<!-- JavaScript for handling chatbox interaction -->
-<script>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <i class="fas fa-users fa-3x"></i>
+                        <h5>Clients</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Gerer les informations des clients</p>
+                        <a href="/clients" class="btn btn-primary btn-block">Acceder</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <i class="fas fa-user-tie fa-3x"></i>
+                        <h5>Conseillers</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Nos conseillers bancaires</p>
+                        <a href="/conseillers" class="btn btn-primary btn-block">Acceder</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <i class="fas fa-wallet fa-3x"></i>
+                        <h5>Comptes</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Gerer les comptes bancaires</p>
+                        <a href="/comptes" class="btn btn-primary btn-block">Acceder</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <i class="fas fa-exchange-alt fa-3x"></i>
+                        <h5>Transactions</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Historique des operations</p>
+                        <a href="/transactions" class="btn btn-primary btn-block">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    // Call loadChatMessages when the page loads
-    window.onload = loadChatMessages;
-
-    // Ensure messages are saved when navigating away
-    window.onbeforeunload = saveChatMessages;
-</script>
-
-
-
-<script src="/webjars/marked/marked.min.js"></script>
-
-<layout-footer></layout-footer>
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2026 Banque Populaire du Maroc</p>
+            <p><strong>Grandir. Ensemble.</strong></p>
+        </div>
+    </footer>
 </body>
-
 </html>

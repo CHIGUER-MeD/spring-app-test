@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conseillers - Banque Populaire</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bcp-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo-bcp.png" alt="BCP" class="logo-bcp" onerror="this.style.display='none'">
+                BANQUE POPULAIRE
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/owners.html">
+                            <i class="fas fa-users"></i> Clients
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/vets.html">
+                            <i class="fas fa-user-tie"></i> Conseillers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-home"></i> Accueil
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h3><i class="fas fa-user-tie"></i> Nos Conseillers Bancaires</h3>
+                <p class="mb-0">Équipe d'experts à votre service</p>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover" id="vetsTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nom</th>
+                                <th>Prénom</th>
+                                <th>Services Bancaires</th>
+                            </tr>
+                        </thead>
+                        <tbody id="vetsBody">
+                            <tr>
+                                <td colspan="4" class="text-center">
+                                    <i class="fas fa-spinner fa-spin fa-2x text-bcp-orange"></i>
+                                    <p class="mt-2">Chargement des données...</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Box -->
+        <div class="card mt-4">
+            <div class="card-body bg-light">
+                <h5><i class="fas fa-info-circle text-bcp-orange"></i> Services Bancaires</h5>
+                <p class="mb-0">Nos conseillers sont spécialisés dans différents domaines :</p>
+                <ul class="mt-2">
+                    <li><strong>Radiology</strong> → Crédit immobilier et personnel</li>
+                    <li><strong>Surgery</strong> → Investissements et placements</li>
+                    <li><strong>Dentistry</strong> → Assurances et prévoyance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p>&copy; 2026 Banque Populaire du Maroc - Tous droits réservés</p>
+            <p><strong>Grandir. Ensemble.</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Charger les données depuis l'API
+        fetch('/api/vet/vets')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Erreur réseau');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const tbody = document.getElementById('vetsBody');
+                tbody.innerHTML = '';
+                
+                if (data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="4" class="text-center">Aucun conseiller trouvé</td></tr>';
+                    return;
+                }
+                
+                data.forEach(vet => {
+                    // Extraire les spécialités (futurs services bancaires)
+                    const specialties = vet.specialties && vet.specialties.length > 0
+                        ? vet.specialties.map(s => {
+                            // Mapper les spécialités vétérinaires vers services bancaires
+                            let serviceName = s.name;
+                            let badgeClass = 'badge-primary';
+                            
+                            if (s.name.toLowerCase().includes('radiology')) {
+                                serviceName = 'Crédit';
+                                badgeClass = 'badge-success';
+                            } else if (s.name.toLowerCase().includes('surgery')) {
+                                serviceName = 'Investissement';
+                                badgeClass = 'badge-info';
+                            } else if (s.name.toLowerCase().includes('dentistry')) {
+                                serviceName = 'Assurance';
+                                badgeClass = 'badge-warning';
+                            }
+                            
+                            return `<span class="badge ${badgeClass}">${serviceName}</span>`;
+                        }).join(' ')
+                        : '<span class="badge badge-secondary">Généraliste</span>';
+                    
+                    const row = `
+                        <tr>
+                            <td><strong>${vet.id}</strong></td>
+                            <td>${vet.lastName}</td>
+                            <td>${vet.firstName}</td>
+                            <td>${specialties}</td>
+                        </tr>
+                    `;
+                    tbody.innerHTML += row;
+                });
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+                document.getElementById('vetsBody').innerHTML = `
+                    <tr>
+                        <td colspan="4" class="text-center text-danger">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Erreur de chargement des données. Veuillez vérifier que les services sont démarrés.
+                        </td>
+                    </tr>
+                `;
+            });
+    </script>
+</body>
+</html>
